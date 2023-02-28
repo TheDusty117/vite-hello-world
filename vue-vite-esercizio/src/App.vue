@@ -1,7 +1,10 @@
+
+<!-- SEZIONE DI SCRIPT , DA CAMBIARE in OPTION API-->
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
+<!-- SEZIONE HTML-->
 <template>
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -14,6 +17,8 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld msg="Vite + Vue" />
 </template>
 
+
+<!--SEZIONE DI STILE-->
 <style scoped>
 .logo {
   height: 6em;
