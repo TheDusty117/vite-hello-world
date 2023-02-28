@@ -1,7 +1,32 @@
 
 <!-- SEZIONE DI SCRIPT , DA CAMBIARE in OPTION API-->
-<script setup>
+<script>
+  //----- (1) -----  importo il mio componente Apphero step 1
+  import HeroTeal from './components/AppHero.vue'
+  //----- (1) -------------------------------------------
 
+
+  export default {
+  //----- (2) -----  passare il componente desiderato
+    components: {
+
+      HeroTeal
+
+    },
+  //----- (2) ------------------------------------
+
+    data() {
+      return {
+        message: 'ciao a tutti!'
+      }
+    },
+
+    methods: {
+      sayHello(){
+        console.log('hello!')
+      }
+    }
+  }
 </script>
 
 <!-- SEZIONE HTML-->
@@ -14,7 +39,15 @@
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  
+  <div>
+    <h1>questo l'ho scritto io in tempo reale!</h1>
+    <button @click="sayHello">Saluta</button>
+  </div>
+
+<!-- ----- (3) ----- UTILIZZO DEL MIO COMPONENTE -->
+<HeroTeal></HeroTeal>
+
+
 </template>
 
 
