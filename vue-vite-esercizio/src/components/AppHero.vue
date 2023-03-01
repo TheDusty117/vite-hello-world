@@ -1,3 +1,4 @@
+<!--TEMPLATE-->
 <template>
   <div class="bg-styled">
     {{  description }}
@@ -6,6 +7,7 @@
 
 </template>
 
+<!--SCRIPT-->
 <script>
   export default {
     data() {
@@ -17,6 +19,7 @@
   }
 </script>
 
+<!--STYLE-->
 <style>
 
   .bg-styled{
