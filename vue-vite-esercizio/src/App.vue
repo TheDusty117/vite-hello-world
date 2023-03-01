@@ -9,7 +9,7 @@
   export default {
   //----- (2) -----  passare il componente desiderato
     components: {
-
+      //questo e' un oggetto, che viene scritto una volta, e questo oggetto e' il nostro HeroTeal che si trova su apphero...
       HeroTeal
 
     },
@@ -65,4 +65,9 @@
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
+.bg-styled:hover{
+  filter: drop-shadow(0 0 2em #dfc63aaa);
+
+}
+
 </style>
