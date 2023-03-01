@@ -2,6 +2,8 @@
   <div class="bg-styled">
     {{  description }}
   </div>
+
+
 </template>
 
 <script>
@@ -9,6 +11,7 @@
     data() {
       return{
         description: 'ciao sono un hero!'
+        
       }
     }
   }
@@ -17,8 +20,9 @@
 <style>
 
   .bg-styled{
+    background-image: url(./img/fotografare-paesaggi.webp);
     background-color: teal;
-    height: 400;
+    height: 500px;
     width: 900px;
     color: wheat;
   }
