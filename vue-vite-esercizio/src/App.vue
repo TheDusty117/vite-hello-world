@@ -46,7 +46,7 @@
 
 <!-- ----- (3) ----- UTILIZZO DEL MIO COMPONENTE -->
 <HeroTeal></HeroTeal>
-
+<h1>Thunder</h1>
 
 </template>
 
